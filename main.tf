@@ -9,6 +9,6 @@ terraform {
     resource_group_name  = "RG-Test1"
     storage_account_name = "satftest1"
     container_name       = "con-satftest1"
-    key                  = "KV-satftest1"
+    key                  = "Key1"
   }
 }
