@@ -7,8 +7,8 @@ provider "azurerm" {
 terraform {
   backend "azurerm" {
     resource_group_name  = "RG-Test1"
-    storage_account_name = "ccpsazuretf0001"
-    container_name       = "ccpterraformstatefile"
-    key                  = "ccpsterraform.tfstate"
+    storage_account_name = "satftest1"
+    container_name       = "con-satftest1"
+    key                  = "KV-satftest1"
   }
 }
