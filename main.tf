@@ -3,7 +3,7 @@ provider "azurerm" {
   version = "=3.0.0"
   features {}
 }
-# Terraform backend configuration block -precreated
+# Terraform backend configuration block -precreatedww
 terraform {
   backend "azurerm" {
     resource_group_name  = "RG-Test1"
